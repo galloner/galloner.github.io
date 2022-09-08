@@ -4,7 +4,10 @@
 <title>Galloner</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,max-width=1.0,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
 <br />
 
 </head>
@@ -14,7 +17,9 @@
 	<style>
 		body{
 			background-image: url("https://api.ixiaowai.cn/api/api.php") !important;
-  			background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position-x:center;
+  			background-repeat:no-repeat;background-size:cover;
+			font-size: calc(12px + 0.6vw);
+			background-attachment:fixed;background-position-x:center;
 		}
 		.up1{
 			width:95%;
@@ -25,15 +30,18 @@
 			margin: auto
 		}
 		.daohang{
-			width: 80%;
+			max-width: 95%;
+			min-width: 80%;
 			background: rgba(235, 235, 234,0.4);
 			text-align: center;
 			margin: auto;
 			border-radius: 5px;
 		}
 		.dd{
-			max-width: 25%;
+			max-width: 20%;
 			min-width: 8%;
+			text-shadow: 2px;
+			
 			height: 30px;
 			line-height: 5px;
 			display: inline-block;
@@ -47,26 +55,27 @@
 		}
 		@font-face{
 			font-family:ailian;
-			src:url("https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8wM3JmbC1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9hbGV4d18wM3JmbF9vbm1pY3Jvc29mdF9jb20vRVNrNzJqXzNLRzlObzdmdURBMWJDZjhCNGdQYkQ4Q19nUWdobmVXdWdfQ2xYdz9lPVp5V2h3eA.ttf");
+			src:url('font/ailian.ttf');
 		}
+
 	</style>
 	<div class="up1">
 		<font color="#99FFFF" size="6"><h1 style="background: rgba(249,253,204,1.00); width: 300px; margin: auto; border-radius: 20px;">Galloner</h1></font><br/><br/><br/>
 		<span class="daohang">
 			<span class="dd" onClick="window.open('https://galloner.wegal.top','_self')">
-				<p align="center"><font color="#CC00FF" size="6" face="STKaiti"> <b>Gal精选</b></font></p>
+				<p align="center"><font color="#CC00FF"  face="ailian"> <b>Gal精选</b></font></p>
 			</span>
 			&emsp;
 			<span class="dd">
-				<p align="center"><font color="#996633" size="6" face="STKaiti">视频在线</font></p>
+				<p align="center"><font color="#996633"  face="ailian"><b>视频在线</b></font></p>
 			</span>
 			&emsp;
 			<span class="dd">
-				<p align="center"><font color="#990066" size="6" face="STKaiti">轻小说库</font></p>
+				<p align="center"><font color="#990066"  face="ailian"><b>轻小说库</b></font></p>
 			</span>
 			&emsp;
 			<span class="dd">
-				<p align="center"><font color="#6633FF" size="6" face="STKaiti">CG写真</font></p>
+				<p align="center"><font color="#6633FF"  face="ailian"><b>CG写真</b></font></p>
 			</span>
 		</span>
 		
