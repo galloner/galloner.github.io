@@ -1,6 +1,7 @@
 # Galloner的小站
 
-<div id="body">
+
+
 
 ## 简介
 
@@ -18,27 +19,4 @@
 
 [点我跳转主页](/net/home.html)
 
-
-
-
-
-
-
-</div>
-
-<style type="text/css">
-    body{
-        background:url("https://api.ixiaowai.cn/api/api.php") !important;
-    }
-    		#body{
-			height: 660px;
-			width:95%;
-			max-width: 980px;
-			border-radius:9px;
-			text-align: center; 
-			line-height: 30px;/*文字水平居中*/
-			margin:auto;/*div水平居中*/
-
-		}
-</style>
 
