@@ -1,3 +1,7 @@
+# Galloner的小站
+
+<div id="body">
+
 ## 简介
 
 本网站基于[Github](https://github.com/)开发，属于轻量级个人网站，目前正在开发测试中。
@@ -10,4 +14,29 @@
 
 页面跳转测试
 
-[点我跳转](/小站.html)
+[点我跳转](/net/小站.html)
+
+
+
+
+
+
+
+</div>
+
+<style type="text/css">
+    body{
+        background:url("https://api.ixiaowai.cn/api/api.php") !important;
+    }
+    		#body{
+			height: 660px;
+			width:95%;
+			max-width: 980px;
+			border-radius:9px;
+			text-align: center; 
+			line-height: 30px;/*文字水平居中*/
+			margin:auto;/*div水平居中*/
+
+		}
+</style>
+
