@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 <head>
 <title>Galloner</title>
 <meta charset="utf-8">
@@ -32,11 +32,18 @@
 			border-radius: 5px;
 		}
 		.dd{
-			width: 150px;
+			max-width: 25%;
+			min-width: 8%;
+			height: 30px;
+			line-height: 5px;
 			display: inline-block;
 			background: rgba(235, 235, 234,1.0);
 			border-radius: 10px;
+			transition: all 0.3s;
 			cursor:url("https://galloner.wegal.top/d/%E2%9D%81Galloner%E2%9D%81%20~galgame%E5%B0%8F%E7%AB%99~/OneDrive%E8%B7%AF%E7%BA%BF/%E9%93%BE%E6%8E%A5%E9%80%89%E6%8B%A9.cur"), pointer;
+		}
+		.dd:hover {
+			transform:scale(1.2,1.6) ;
 		}
 		@font-face{
 			font-family:ailian;
@@ -45,23 +52,23 @@
 	</style>
 	<div class="up1">
 		<font color="#99FFFF" size="6"><h1 style="background: rgba(249,253,204,1.00); width: 300px; margin: auto; border-radius: 20px;">Galloner</h1></font><br/><br/><br/>
-		<div class="daohang">
-			<div class="dd" onClick="window.open('https://galloner.wegal.top','_self')">
-				<p align="center"><font color="#CC00FF" size="4" face="STKaiti">Gal精选</font></p>
-			</div>
-			&ensp;&ensp;&ensp;
-			<div class="dd">
-				<font color="#996633" size="4" face="STKaiti"><p align="center">视频在线</p></font>
-			</div>
-			&ensp;&ensp;&ensp;
-			<div class="dd">
-				<font color="#990066" size="4" face="STKaiti"><p align="center">轻小说库</p></font>
-			</div>
-			&ensp;&ensp;&ensp;
-			<div class="dd">
-				<font color="#6633FF" size="4" face="STKaiti"><p align="center">CG写真</p></font>
-			</div>
-		</div>
+		<span class="daohang">
+			<span class="dd" onClick="window.open('https://galloner.wegal.top','_self')">
+				<p align="center"><font color="#CC00FF" size="6" face="STKaiti"> <b>Gal精选</b></font></p>
+			</span>
+			&emsp;
+			<span class="dd">
+				<p align="center"><font color="#996633" size="6" face="STKaiti">视频在线</font></p>
+			</span>
+			&emsp;
+			<span class="dd">
+				<p align="center"><font color="#990066" size="6" face="STKaiti">轻小说库</font></p>
+			</span>
+			&emsp;
+			<span class="dd">
+				<p align="center"><font color="#6633FF" size="6" face="STKaiti">CG写真</font></p>
+			</span>
+		</span>
 		
 	</div>
 	
