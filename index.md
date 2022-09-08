@@ -4,6 +4,10 @@
 
 ## 资源小站
 
-本人搭建了一个<font color="#FF00FF">旨在免费分享资源</font>的网站，[galloner的小站](https://galloner.wegal.com)
+本人搭建了一个<font color="#FF00FF">旨在免费分享资源</font>的网站，[galloner的小站](https://galloner.wegal.top)
 
 欢迎前来参观
+
+页面跳转测试
+
+[点我跳转](/小站.html)
