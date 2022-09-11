@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://api.ixiaowai.cn/api/api.php") !important;
+        background-repeat:no-repeat;background-size:cover;
+    font-size: calc(12px + 0.7vw);
+    background-attachment:fixed;background-position-x:center;
+}
+.up1{
+    width:95%;
+    max-width: 1500px;
+    border-radius: 15px;
+    align-content: center;
+    /* text-align: center; */
+    background: rgba(255, 240, 255,0.4);
+    margin: auto
+}
+.daohang{
+    max-width: 95%;
+    min-width: 80%;
+    height: 20px;
+    background: rgba(235, 235, 234,0.0);
+    text-align: center;
+    /* margin: left; */
+    border-radius: 5px;
+    margin:auto;
+}
+
+.dd{
+    max-width: 20%;
+    min-width: 8%;
+    text-shadow: 2px;
+    border-top: solid 2px rgb(255, 0, 255);
+    border-left: solid 2px rgb(255, 0, 255);
+    border-right: solid 2px rgb(255, 0, 255);
+    border-bottom: solid 2px rgb(255, 0, 255);
+    height: 5vh - 5px;
+    text-align: center;
+    max-height: 50px;
+    line-height: 1vh;
+    display: inline-block;
+    background: rgba(255, 200, 255,0.8);
+    border-radius: 10px;
+    transition: all 0.15s;
+    cursor:url("https://galloner.wegal.top/d/%E2%9D%81Galloner%E2%9D%81%20~galgame%E5%B0%8F%E7%AB%99~/OneDrive%E8%B7%AF%E7%BA%BF/%E9%93%BE%E6%8E%A5%E9%80%89%E6%8B%A9.cur"), pointer;
+}
+.dd:hover {
+    transform:scale(1.2,1.3) translate(0,10px);
+}
+.logo{
+    margin: 0 auto;
+    transition: all 0.3s;
+    display: block;
+    float: left;
+    cursor:url("https://galloner.wegal.top/d/%E2%9D%81Galloner%E2%9D%81%20~galgame%E5%B0%8F%E7%AB%99~/OneDrive%E8%B7%AF%E7%BA%BF/%E9%93%BE%E6%8E%A5%E9%80%89%E6%8B%A9.cur"), pointer;
+    
+}
+.logo:hover{
+    transform:rotate(720deg) scale(1.1,1.1);
+}
+.boxs{
+    margin: 0 10px 20px;
+    width: 220px;
+    height: 150px;
+    float: left;
+    background: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .3s ease 0s;
+}
+.boxs:hover{
+    transform: scale(1.05,1.05) translate(0,1px);
+}
+.boxs .img{
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+.img{
+    background-color: #303030;
+    color: #777;
+    min-height: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+h3 {
+    display: block;
+    background-color: #303030;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0px 0px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.thumb{
+    object-fit: cover;
+}
+
+@font-face{
+    font-family:ailian;
+    src:url('font/ailian.ttf');
+}
+
