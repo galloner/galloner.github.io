@@ -3,6 +3,7 @@ body{
         background-repeat:no-repeat;background-size:cover;
     font-size: calc(12px + 0.7vw);
     background-attachment:fixed;background-position-x:center;
+    font-family: ailian;
 }
 .up1{
     width:95%;
@@ -103,6 +104,6 @@ h3 {
 
 @font-face{
     font-family:ailian;
-    src:url('font/ailian.ttf');
+    src:url('../font/ailian.ttf');
 }
 
